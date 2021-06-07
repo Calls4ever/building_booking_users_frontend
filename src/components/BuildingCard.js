@@ -33,23 +33,25 @@ const BuildingCard =(props)=>{
             }
             
            }else{
+            let confirmed = (booking.startDate -new Date())<=86400000
             let bookingObj={
                 user_id: props.currentUser.id,
                 building_id: props.building.id,
                 start_time: booking.startDate,
                 end_time: booking.endDate,
-                confirmed: false
+                confirmed: confirmed
             }
             bookBuilding(bookingObj)
            }
            
         }else{
+            let confirmed = (booking.startDate -new Date())<=86400000
             let bookingObj={
                 user_id: props.currentUser.id,
                 building_id: props.building.id,
                 start_time: booking.startDate,
                 end_time: booking.endDate,
-                confirmed: false
+                confirmed: confirmed
             }
             
             bookBuilding(bookingObj)
