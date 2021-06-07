@@ -1,0 +1,145 @@
+
+.login-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-form>input{
+  margin: 15px;
+  height: 34px;
+  width: 430px;
+  padding: 5px;
+  font-size: 24px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: blueviolet 2px solid;
+  font-weight: lighter;
+}
+.login-form>input:focus{
+      outline: none;
+}
+.login-form>div>button{
+  height: 35px;
+  border: none;
+  background-color: blueviolet;
+  font-size: 26px;
+  font-weight: normal;
+  color: aliceblue;
+  width: 150px;
+  margin: 10px;
+}
+
+.login-header{
+  font-size: 69px;
+  text-align: center;
+  font-weight: lighter;
+  color: blueviolet;
+}
+.login-message{
+  color: red;
+  font-size: 18px;
+}
+.signup-modal{
+  position:fixed;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-modal-content{
+  padding: 30px;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 12px 3px blueviolet;
+
+}
+/* .close{
+  font-size: 45px;
+  color: blueviolet;
+  font-weight: lighter;
+  right: 70%;
+} */
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container>h1{
+  font-size: 48px;
+  color: blueviolet;
+  font-weight: normal;
+}
+.main-container>h3{
+  font-size: 28px;
+  font-weight: normal;
+  color:cadetblue
+}
+.my-building{
+  background-color: rgb(235, 217, 251);
+  padding: 20px;
+  min-width: 90vw;
+  color: blueviolet;
+  margin-bottom: 25px;
+}
+.my-building>h1{
+  font-size: 38px;
+  font-weight: normal;
+}
+.my-building>h3{
+  font-weight: normal;
+  font-size: 18px;
+
+}
+.building-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.building-container{
+  padding: 8px;
+  box-shadow: 2px 2px 8px 3px lightgrey;
+  margin: 10px;
+
+}
+.building-container>h2{
+  font-size: 24px;
+  color: blueviolet;
+  font-weight: normal;
+}
+.building-container>h3{
+  font-size: 18px;
+  font-weight: normal;
+}
+.building-container>button{
+  width: 100%;
+  height: 32px;
+  font-size: 24px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+.date-container{
+  background-color: rgb(235, 217, 251);
+  color: blueviolet;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.date-container>button{
+  border: none;
+  background-color: blueviolet;
+  margin-top: 10px;
+  height: 24px;
+  font-size: 16px;
+  color: white;
+}
